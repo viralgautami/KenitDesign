@@ -443,6 +443,77 @@ select {
         Section-Title STYLE 
 ============================================================ */
 
+.headerx-title {
+    background: url(../images/sub/articles-bg.jpg) no-repeat center top;
+    background-size: cover;
+    padding: 310px 0 75px;
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 991px) {
+    .headerx-title {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .headerx-title {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .headerx-title {
+        padding: 250px 0 50px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .headerx-title {
+        padding: 140px 0 50px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .headerx-title {
+        padding: 120px 0 30px;
+    }
+}
+
+.headerx-title .title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+    .headerx-title .title {
+        font-size: 35px;
+        line-height: 35px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .headerx-title .title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .headerx-title .title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 0;
+    }
+}
+
+.headerx-title .sub-title {
+    color: #FFFFFF;
+}
+
 .header-title {
     background: url(../images/sub/bg.jpg) no-repeat center top;
     background-size: cover;
@@ -5693,4 +5764,22 @@ select {
         -webkit-transform: scale(0.5);
         opacity: 0.8;
     }
+}
+
+footer {
+    background-color: #353b48;
+    color: #fff;
+    text-align: center;
+    padding: 10px 30px;
+    position: relative;
+    width: 100%;
+}
+
+.vfooter {
+    background-color: #353b48;
+    color: #fff;
+    text-align: center;
+    padding: 10px 30px;
+    position: relative;
+    width: 75%;
 }
